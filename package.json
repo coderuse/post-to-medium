@@ -1,0 +1,33 @@
+{
+  "name": "post-to-medium",
+  "version": "1.0.0",
+  "description": "Push a new post to Medium",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderuse/post-to-medium.git"
+  },
+  "keywords": [
+    "medium.com",
+    "post",
+    "new"
+  ],
+  "author": "Arnab Das <arnab@coderuse.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coderuse/post-to-medium/issues"
+  },
+  "homepage": "https://github.com/coderuse/post-to-medium#readme",
+  "devDependencies": {
+    "config": "1.21.0",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-connect": "1.0.2",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-sass": "1.0.0",
+    "grunt-contrib-watch": "1.0.0"
+  }
+}

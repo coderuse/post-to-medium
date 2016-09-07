@@ -1,0 +1,28 @@
+{
+  "name": "post-to-medium",
+  "homepage": "https://github.com/coderuse/post-to-medium",
+  "authors": [
+    "Arnab Das <arnab@coderuse.com>"
+  ],
+  "description": "Push a new post to Medium",
+  "main": "src/site/index.html",
+  "keywords": [
+    "medium.com",
+    "post",
+    "new",
+    "post"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "medium-editor": "^5.22.0",
+    "jquery": "^3.1.0"
+  }
+}
